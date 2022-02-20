@@ -4,7 +4,7 @@ import {privateRoutes, publicRoutes, RoteNames} from "./router";
 
 const AppRouter:FC = () => {
 
-    const auth = true;
+    const auth = false;
     return (
         auth ?
             <Switch>
