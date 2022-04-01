@@ -1,7 +1,8 @@
 @import '~antd/dist/antd.css';
 
-
-
+.h100 {
+  height: calc(100vh - 64px);
+}
 
 body {
   background-color: gray;
