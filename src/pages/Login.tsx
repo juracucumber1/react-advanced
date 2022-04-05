@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {Layout, Row} from "antd";
+import {Card, Layout, Row} from "antd";
 import LoginForm from "../components/LoginForm";
 
 const Login:FC = () => {
@@ -7,7 +7,9 @@ const Login:FC = () => {
         <div>
             <Layout>
                 <Row justify="center" align="middle" className="h100">
-                    <LoginForm/>
+                    <Card>
+                        <LoginForm/>
+                    </Card>
                 </Row>
             </Layout>
         </div>
